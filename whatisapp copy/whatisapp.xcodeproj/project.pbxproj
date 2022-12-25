@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42257D1929577E57008ADC39 /* whatisappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42257D1829577E57008ADC39 /* whatisappApp.swift */; };
+		42257D1B29577E57008ADC39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42257D1A29577E57008ADC39 /* ContentView.swift */; };
+		42257D1D29577E58008ADC39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42257D1C29577E58008ADC39 /* Assets.xcassets */; };
+		42257D2029577E58008ADC39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42257D1F29577E58008ADC39 /* Preview Assets.xcassets */; };
+		42257D2A29577E58008ADC39 /* whatisappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42257D2929577E58008ADC39 /* whatisappTests.swift */; };
+		42257D3429577E58008ADC39 /* whatisappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42257D3329577E58008ADC39 /* whatisappUITests.swift */; };
+		42257D3629577E58008ADC39 /* whatisappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42257D3529577E58008ADC39 /* whatisappUITestsLaunchTests.swift */; };
+		42257D4329578EFF008ADC39 /* dummydata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42257D4229578EFF008ADC39 /* dummydata.swift */; };
+		426FFFC52957D02100552FDF /* gregory-hayes-h5cd51KXmRQ-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 426FFFB52957D02100552FDF /* gregory-hayes-h5cd51KXmRQ-unsplash.jpg */; };
+		426FFFC62957D02100552FDF /* freestocks-9UVmlIb0wJU-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 426FFFB62957D02100552FDF /* freestocks-9UVmlIb0wJU-unsplash.jpg */; };
+		426FFFC72957D02100552FDF /* jake-nackos-IF9TK5Uy-KI-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 426FFFB72957D02100552FDF /* jake-nackos-IF9TK5Uy-KI-unsplash.jpg */; };
+		426FFFC82957D02100552FDF /* christina-wocintechchat-com-50TkCaP8M3A-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 426FFFB82957D02100552FDF /* christina-wocintechchat-com-50TkCaP8M3A-unsplash.jpg */; };
+		426FFFC92957D02100552FDF /* joseph-gonzalez-iFgRcqHznqg-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 426FFFB92957D02100552FDF /* joseph-gonzalez-iFgRcqHznqg-unsplash.jpg */; };
+		426FFFCA2957D02100552FDF /* axel-vazquez-A77FAov-OzI-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 426FFFBA2957D02100552FDF /* axel-vazquez-A77FAov-OzI-unsplash.jpg */; };
+		426FFFCB2957D02100552FDF /* foto-sushi-6anudmpILw4-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 426FFFBB2957D02100552FDF /* foto-sushi-6anudmpILw4-unsplash.jpg */; };
+		426FFFCC2957D02100552FDF /* jurica-koletic-7YVZYZeITc8-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 426FFFBC2957D02100552FDF /* jurica-koletic-7YVZYZeITc8-unsplash.jpg */; };
+		426FFFCD2957D02100552FDF /* lethicia-matos-CSh-hNHc3Y8-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 426FFFBD2957D02100552FDF /* lethicia-matos-CSh-hNHc3Y8-unsplash.jpg */; };
+		426FFFCE2957D02100552FDF /* meysam-jarahkar-LI7jB1925j0-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 426FFFBE2957D02100552FDF /* meysam-jarahkar-LI7jB1925j0-unsplash.jpg */; };
+		426FFFCF2957D02100552FDF /* marco-chilese-nHIb0s-BZMA-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 426FFFBF2957D02100552FDF /* marco-chilese-nHIb0s-BZMA-unsplash.jpg */; };
+		426FFFD02957D02100552FDF /* szvoreny-attila-Z_DjhwOUvTw-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 426FFFC02957D02100552FDF /* szvoreny-attila-Z_DjhwOUvTw-unsplash.jpg */; };
+		426FFFD12957D02100552FDF /* tamara-bellis-Brl7bqld05E-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 426FFFC12957D02100552FDF /* tamara-bellis-Brl7bqld05E-unsplash.jpg */; };
+		426FFFD22957D02100552FDF /* IMG_00956-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 426FFFC22957D02100552FDF /* IMG_00956-3.jpg */; };
+		426FFFD32957D02100552FDF /* ivana-cajina-_7LbC5J-jw4-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 426FFFC32957D02100552FDF /* ivana-cajina-_7LbC5J-jw4-unsplash.jpg */; };
+		426FFFD42957D02100552FDF /* albert-dera-ILip77SbmOE-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 426FFFC42957D02100552FDF /* albert-dera-ILip77SbmOE-unsplash.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42257D2629577E58008ADC39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42257D0D29577E57008ADC39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42257D1429577E57008ADC39;
+			remoteInfo = whatisapp;
+		};
+		42257D3029577E58008ADC39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42257D0D29577E57008ADC39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42257D1429577E57008ADC39;
+			remoteInfo = whatisapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42257D1529577E57008ADC39 /* whatisapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whatisapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42257D1829577E57008ADC39 /* whatisappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatisappApp.swift; sourceTree = "<group>"; };
+		42257D1A29577E57008ADC39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		42257D1C29577E58008ADC39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42257D1F29577E58008ADC39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		42257D2529577E58008ADC39 /* whatisappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = whatisappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42257D2929577E58008ADC39 /* whatisappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatisappTests.swift; sourceTree = "<group>"; };
+		42257D2F29577E58008ADC39 /* whatisappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = whatisappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42257D3329577E58008ADC39 /* whatisappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatisappUITests.swift; sourceTree = "<group>"; };
+		42257D3529577E58008ADC39 /* whatisappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatisappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		42257D4229578EFF008ADC39 /* dummydata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummydata.swift; sourceTree = "<group>"; };
+		426FFFB52957D02100552FDF /* gregory-hayes-h5cd51KXmRQ-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "gregory-hayes-h5cd51KXmRQ-unsplash.jpg"; path = "../../../Downloads/gregory-hayes-h5cd51KXmRQ-unsplash.jpg"; sourceTree = "<group>"; };
+		426FFFB62957D02100552FDF /* freestocks-9UVmlIb0wJU-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "freestocks-9UVmlIb0wJU-unsplash.jpg"; path = "../../../Downloads/freestocks-9UVmlIb0wJU-unsplash.jpg"; sourceTree = "<group>"; };
+		426FFFB72957D02100552FDF /* jake-nackos-IF9TK5Uy-KI-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "jake-nackos-IF9TK5Uy-KI-unsplash.jpg"; path = "../../../Downloads/jake-nackos-IF9TK5Uy-KI-unsplash.jpg"; sourceTree = "<group>"; };
+		426FFFB82957D02100552FDF /* christina-wocintechchat-com-50TkCaP8M3A-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "christina-wocintechchat-com-50TkCaP8M3A-unsplash.jpg"; path = "../../../Downloads/christina-wocintechchat-com-50TkCaP8M3A-unsplash.jpg"; sourceTree = "<group>"; };
+		426FFFB92957D02100552FDF /* joseph-gonzalez-iFgRcqHznqg-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "joseph-gonzalez-iFgRcqHznqg-unsplash.jpg"; path = "../../../Downloads/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg"; sourceTree = "<group>"; };
+		426FFFBA2957D02100552FDF /* axel-vazquez-A77FAov-OzI-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "axel-vazquez-A77FAov-OzI-unsplash.jpg"; path = "../../../Downloads/axel-vazquez-A77FAov-OzI-unsplash.jpg"; sourceTree = "<group>"; };
+		426FFFBB2957D02100552FDF /* foto-sushi-6anudmpILw4-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "foto-sushi-6anudmpILw4-unsplash.jpg"; path = "../../../Downloads/foto-sushi-6anudmpILw4-unsplash.jpg"; sourceTree = "<group>"; };
+		426FFFBC2957D02100552FDF /* jurica-koletic-7YVZYZeITc8-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "jurica-koletic-7YVZYZeITc8-unsplash.jpg"; path = "../../../Downloads/jurica-koletic-7YVZYZeITc8-unsplash.jpg"; sourceTree = "<group>"; };
+		426FFFBD2957D02100552FDF /* lethicia-matos-CSh-hNHc3Y8-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "lethicia-matos-CSh-hNHc3Y8-unsplash.jpg"; path = "../../../Downloads/lethicia-matos-CSh-hNHc3Y8-unsplash.jpg"; sourceTree = "<group>"; };
+		426FFFBE2957D02100552FDF /* meysam-jarahkar-LI7jB1925j0-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "meysam-jarahkar-LI7jB1925j0-unsplash.jpg"; path = "../../../Downloads/meysam-jarahkar-LI7jB1925j0-unsplash.jpg"; sourceTree = "<group>"; };
+		426FFFBF2957D02100552FDF /* marco-chilese-nHIb0s-BZMA-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "marco-chilese-nHIb0s-BZMA-unsplash.jpg"; path = "../../../Downloads/marco-chilese-nHIb0s-BZMA-unsplash.jpg"; sourceTree = "<group>"; };
+		426FFFC02957D02100552FDF /* szvoreny-attila-Z_DjhwOUvTw-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "szvoreny-attila-Z_DjhwOUvTw-unsplash.jpg"; path = "../../../Downloads/szvoreny-attila-Z_DjhwOUvTw-unsplash.jpg"; sourceTree = "<group>"; };
+		426FFFC12957D02100552FDF /* tamara-bellis-Brl7bqld05E-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tamara-bellis-Brl7bqld05E-unsplash.jpg"; path = "../../../Downloads/tamara-bellis-Brl7bqld05E-unsplash.jpg"; sourceTree = "<group>"; };
+		426FFFC22957D02100552FDF /* IMG_00956-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "IMG_00956-3.jpg"; path = "../../../Downloads/IMG_00956-3.jpg"; sourceTree = "<group>"; };
+		426FFFC32957D02100552FDF /* ivana-cajina-_7LbC5J-jw4-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ivana-cajina-_7LbC5J-jw4-unsplash.jpg"; path = "../../../Downloads/ivana-cajina-_7LbC5J-jw4-unsplash.jpg"; sourceTree = "<group>"; };
+		426FFFC42957D02100552FDF /* albert-dera-ILip77SbmOE-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "albert-dera-ILip77SbmOE-unsplash.jpg"; path = "../../../Downloads/albert-dera-ILip77SbmOE-unsplash.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42257D1229577E57008ADC39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42257D2229577E58008ADC39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42257D2C29577E58008ADC39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42257D0C29577E57008ADC39 = {
+			isa = PBXGroup;
+			children = (
+				42257D1729577E57008ADC39 /* whatisapp */,
+				42257D2829577E58008ADC39 /* whatisappTests */,
+				42257D3229577E58008ADC39 /* whatisappUITests */,
+				42257D1629577E57008ADC39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42257D1629577E57008ADC39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42257D1529577E57008ADC39 /* whatisapp.app */,
+				42257D2529577E58008ADC39 /* whatisappTests.xctest */,
+				42257D2F29577E58008ADC39 /* whatisappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42257D1729577E57008ADC39 /* whatisapp */ = {
+			isa = PBXGroup;
+			children = (
+				42257D1829577E57008ADC39 /* whatisappApp.swift */,
+				42257D1A29577E57008ADC39 /* ContentView.swift */,
+				426FFFC42957D02100552FDF /* albert-dera-ILip77SbmOE-unsplash.jpg */,
+				426FFFBA2957D02100552FDF /* axel-vazquez-A77FAov-OzI-unsplash.jpg */,
+				426FFFB82957D02100552FDF /* christina-wocintechchat-com-50TkCaP8M3A-unsplash.jpg */,
+				426FFFBB2957D02100552FDF /* foto-sushi-6anudmpILw4-unsplash.jpg */,
+				426FFFB62957D02100552FDF /* freestocks-9UVmlIb0wJU-unsplash.jpg */,
+				426FFFB52957D02100552FDF /* gregory-hayes-h5cd51KXmRQ-unsplash.jpg */,
+				426FFFC22957D02100552FDF /* IMG_00956-3.jpg */,
+				426FFFC32957D02100552FDF /* ivana-cajina-_7LbC5J-jw4-unsplash.jpg */,
+				426FFFB72957D02100552FDF /* jake-nackos-IF9TK5Uy-KI-unsplash.jpg */,
+				426FFFB92957D02100552FDF /* joseph-gonzalez-iFgRcqHznqg-unsplash.jpg */,
+				426FFFBC2957D02100552FDF /* jurica-koletic-7YVZYZeITc8-unsplash.jpg */,
+				426FFFBD2957D02100552FDF /* lethicia-matos-CSh-hNHc3Y8-unsplash.jpg */,
+				426FFFBF2957D02100552FDF /* marco-chilese-nHIb0s-BZMA-unsplash.jpg */,
+				426FFFBE2957D02100552FDF /* meysam-jarahkar-LI7jB1925j0-unsplash.jpg */,
+				426FFFC02957D02100552FDF /* szvoreny-attila-Z_DjhwOUvTw-unsplash.jpg */,
+				426FFFC12957D02100552FDF /* tamara-bellis-Brl7bqld05E-unsplash.jpg */,
+				42257D4229578EFF008ADC39 /* dummydata.swift */,
+				42257D1C29577E58008ADC39 /* Assets.xcassets */,
+				42257D1E29577E58008ADC39 /* Preview Content */,
+			);
+			path = whatisapp;
+			sourceTree = "<group>";
+		};
+		42257D1E29577E58008ADC39 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				42257D1F29577E58008ADC39 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		42257D2829577E58008ADC39 /* whatisappTests */ = {
+			isa = PBXGroup;
+			children = (
+				42257D2929577E58008ADC39 /* whatisappTests.swift */,
+			);
+			path = whatisappTests;
+			sourceTree = "<group>";
+		};
+		42257D3229577E58008ADC39 /* whatisappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42257D3329577E58008ADC39 /* whatisappUITests.swift */,
+				42257D3529577E58008ADC39 /* whatisappUITestsLaunchTests.swift */,
+			);
+			path = whatisappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42257D1429577E57008ADC39 /* whatisapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42257D3929577E58008ADC39 /* Build configuration list for PBXNativeTarget "whatisapp" */;
+			buildPhases = (
+				42257D1129577E57008ADC39 /* Sources */,
+				42257D1229577E57008ADC39 /* Frameworks */,
+				42257D1329577E57008ADC39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = whatisapp;
+			productName = whatisapp;
+			productReference = 42257D1529577E57008ADC39 /* whatisapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42257D2429577E58008ADC39 /* whatisappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42257D3C29577E58008ADC39 /* Build configuration list for PBXNativeTarget "whatisappTests" */;
+			buildPhases = (
+				42257D2129577E58008ADC39 /* Sources */,
+				42257D2229577E58008ADC39 /* Frameworks */,
+				42257D2329577E58008ADC39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42257D2729577E58008ADC39 /* PBXTargetDependency */,
+			);
+			name = whatisappTests;
+			productName = whatisappTests;
+			productReference = 42257D2529577E58008ADC39 /* whatisappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42257D2E29577E58008ADC39 /* whatisappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42257D3F29577E58008ADC39 /* Build configuration list for PBXNativeTarget "whatisappUITests" */;
+			buildPhases = (
+				42257D2B29577E58008ADC39 /* Sources */,
+				42257D2C29577E58008ADC39 /* Frameworks */,
+				42257D2D29577E58008ADC39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42257D3129577E58008ADC39 /* PBXTargetDependency */,
+			);
+			name = whatisappUITests;
+			productName = whatisappUITests;
+			productReference = 42257D2F29577E58008ADC39 /* whatisappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42257D0D29577E57008ADC39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					42257D1429577E57008ADC39 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					42257D2429577E58008ADC39 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 42257D1429577E57008ADC39;
+					};
+					42257D2E29577E58008ADC39 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 42257D1429577E57008ADC39;
+					};
+				};
+			};
+			buildConfigurationList = 42257D1029577E57008ADC39 /* Build configuration list for PBXProject "whatisapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42257D0C29577E57008ADC39;
+			productRefGroup = 42257D1629577E57008ADC39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42257D1429577E57008ADC39 /* whatisapp */,
+				42257D2429577E58008ADC39 /* whatisappTests */,
+				42257D2E29577E58008ADC39 /* whatisappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42257D1329577E57008ADC39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426FFFD42957D02100552FDF /* albert-dera-ILip77SbmOE-unsplash.jpg in Resources */,
+				426FFFCC2957D02100552FDF /* jurica-koletic-7YVZYZeITc8-unsplash.jpg in Resources */,
+				426FFFD32957D02100552FDF /* ivana-cajina-_7LbC5J-jw4-unsplash.jpg in Resources */,
+				426FFFCB2957D02100552FDF /* foto-sushi-6anudmpILw4-unsplash.jpg in Resources */,
+				426FFFC82957D02100552FDF /* christina-wocintechchat-com-50TkCaP8M3A-unsplash.jpg in Resources */,
+				42257D2029577E58008ADC39 /* Preview Assets.xcassets in Resources */,
+				426FFFD02957D02100552FDF /* szvoreny-attila-Z_DjhwOUvTw-unsplash.jpg in Resources */,
+				426FFFCF2957D02100552FDF /* marco-chilese-nHIb0s-BZMA-unsplash.jpg in Resources */,
+				426FFFC72957D02100552FDF /* jake-nackos-IF9TK5Uy-KI-unsplash.jpg in Resources */,
+				426FFFCA2957D02100552FDF /* axel-vazquez-A77FAov-OzI-unsplash.jpg in Resources */,
+				426FFFC62957D02100552FDF /* freestocks-9UVmlIb0wJU-unsplash.jpg in Resources */,
+				42257D1D29577E58008ADC39 /* Assets.xcassets in Resources */,
+				426FFFCD2957D02100552FDF /* lethicia-matos-CSh-hNHc3Y8-unsplash.jpg in Resources */,
+				426FFFD12957D02100552FDF /* tamara-bellis-Brl7bqld05E-unsplash.jpg in Resources */,
+				426FFFC52957D02100552FDF /* gregory-hayes-h5cd51KXmRQ-unsplash.jpg in Resources */,
+				426FFFC92957D02100552FDF /* joseph-gonzalez-iFgRcqHznqg-unsplash.jpg in Resources */,
+				426FFFD22957D02100552FDF /* IMG_00956-3.jpg in Resources */,
+				426FFFCE2957D02100552FDF /* meysam-jarahkar-LI7jB1925j0-unsplash.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42257D2329577E58008ADC39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42257D2D29577E58008ADC39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42257D1129577E57008ADC39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42257D1B29577E57008ADC39 /* ContentView.swift in Sources */,
+				42257D4329578EFF008ADC39 /* dummydata.swift in Sources */,
+				42257D1929577E57008ADC39 /* whatisappApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42257D2129577E58008ADC39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42257D2A29577E58008ADC39 /* whatisappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42257D2B29577E58008ADC39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42257D3629577E58008ADC39 /* whatisappUITestsLaunchTests.swift in Sources */,
+				42257D3429577E58008ADC39 /* whatisappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42257D2729577E58008ADC39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42257D1429577E57008ADC39 /* whatisapp */;
+			targetProxy = 42257D2629577E58008ADC39 /* PBXContainerItemProxy */;
+		};
+		42257D3129577E58008ADC39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42257D1429577E57008ADC39 /* whatisapp */;
+			targetProxy = 42257D3029577E58008ADC39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		42257D3729577E58008ADC39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42257D3829577E58008ADC39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42257D3A29577E58008ADC39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"whatisapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whynot.whatisapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42257D3B29577E58008ADC39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"whatisapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whynot.whatisapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42257D3D29577E58008ADC39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whynot.whatisappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/whatisapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/whatisapp";
+			};
+			name = Debug;
+		};
+		42257D3E29577E58008ADC39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whynot.whatisappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/whatisapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/whatisapp";
+			};
+			name = Release;
+		};
+		42257D4029577E58008ADC39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whynot.whatisappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = whatisapp;
+			};
+			name = Debug;
+		};
+		42257D4129577E58008ADC39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whynot.whatisappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = whatisapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42257D1029577E57008ADC39 /* Build configuration list for PBXProject "whatisapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42257D3729577E58008ADC39 /* Debug */,
+				42257D3829577E58008ADC39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42257D3929577E58008ADC39 /* Build configuration list for PBXNativeTarget "whatisapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42257D3A29577E58008ADC39 /* Debug */,
+				42257D3B29577E58008ADC39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42257D3C29577E58008ADC39 /* Build configuration list for PBXNativeTarget "whatisappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42257D3D29577E58008ADC39 /* Debug */,
+				42257D3E29577E58008ADC39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42257D3F29577E58008ADC39 /* Build configuration list for PBXNativeTarget "whatisappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42257D4029577E58008ADC39 /* Debug */,
+				42257D4129577E58008ADC39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42257D0D29577E57008ADC39 /* Project object */;
+}
